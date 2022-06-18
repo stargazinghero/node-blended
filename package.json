@@ -1,0 +1,33 @@
+{
+    "name": "blended",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "cross-env den=pizza node app.js jain=eggs",
+        "start:dev": "cross-env nodemon app.js den=pizza jain=eggs",
+        "sum": "nodemon calc.js sum",
+        "sub": "nodemon calc.js sub",
+        "mult": "nodemon calc.js mult",
+        "div": "nodemon calc.js div"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stargazinghero/node-blended.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/stargazinghero/node-blended/issues"
+    },
+    "homepage": "https://github.com/stargazinghero/node-blended#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    },
+    "dependencies": {
+        "cross-env": "^7.0.3",
+        "morgan": "^1.10.0"
+    }
+}
